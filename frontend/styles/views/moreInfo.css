@@ -1,0 +1,5 @@
+.moreInfo vaadin-grid,
+.moreInfo vaadin-grid-cell-content {
+ background-color: var(--lumo-contrast-10pct);
+
+}

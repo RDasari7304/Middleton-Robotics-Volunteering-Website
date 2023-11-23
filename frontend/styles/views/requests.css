@@ -1,0 +1,134 @@
+.card {
+  background-color: var(--lumo-base-color);
+  //border-radius: var(--lumo-border-radius);
+  box-shadow: var(--lumo-box-shadow-xs);
+  padding: calc(var(--lumo-space-s) * 1.5) var(--lumo-space-m);
+}
+
+.header {
+  align-items: baseline;
+}
+
+.date {
+  color: var(--lumo-tertiary-text-color);
+  font-size: var(--lumo-font-size-xs);
+}
+
+.fullPage{
+background - color : var(--lumo-contrast-10pct);
+
+}
+
+.fullPage .request-span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color : var(--lumo-primary-color);
+}
+
+.requestsTab{
+font-size: var(--lumo-font-size-s);
+    height: var(--lumo-size-l);
+    font-weight: 600;
+    color: var(--lumo-body-text-color);
+}
+
+.requestsTab:hover {
+    background-color: var(--lumo-contrast-5pct);
+    color:black;
+}
+
+.requestsTab[selected] {
+background-color: var(--lumo-primary-color-10pct);
+      color:var(--lumo-primary-text-color);
+}
+
+
+.post {
+  color: var(--lumo-secondary-text-color);
+  font-size: var(--lumo-font-size-s);
+  margin-bottom: var(--lumo-space-s);
+  white-space: normal;
+
+}
+
+.fullPage #editor-layout{
+    background-color : #dfe0e0
+
+}
+.fullPage vaadin-grid {
+  line-height: var(--lumo-line-height-m);
+}
+
+.fullPage vaadin-grid,
+.fullPage vaadin-grid-cell-content {
+ background-color :  var(--lumo-contrast-10pct);
+
+}
+
+.fullPage .name {
+            font-size: var(--lumo-font-size-s);
+            font-weight: bold;
+}
+
+.fromLayout{
+    width : 100%;
+}
+
+.toLayout{
+    width : 100%;
+}
+
+.toLabel{
+    width : 10%;
+    margin-top : auto;
+    margin-bottom : auto;
+}
+
+.fromLabel{
+    width : 10%;
+    margin-top : auto;
+    margin-bottom : auto;
+}
+
+.subjectLabel{
+    width : 10%;
+    margin-top : auto;
+    margin-bottom : auto;
+}
+
+.fromEmailField{
+    width : 75%;
+}
+
+.subjectLayout{
+    width : 100%;
+}
+
+.noRequestsSpan{
+    margin : auto;
+}
+
+.subjectField{
+    width :  75%;
+}
+
+.overrideDefaultEmailSender{
+    background : var(--lumo-error-color);
+    color : #fff;
+    cursor : red;
+
+}
+
+.requestsNotif{background: #ff0000;
+                 border-radius: 100%;
+                 -moz-border-radius: 0.8em;
+                 -webkit-border-radius: 0.8em;
+                 color: #ffffff;
+                 display: inline-block;
+                 font-weight: bold;
+                 line-height: 1.1em;
+                 margin-left: 0.5vw;
+                 text-align: center;
+                 font-size : 12px;
+                 width: 1.1em;
+}

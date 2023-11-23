@@ -1,0 +1,71 @@
+.actionLabel{
+    font-weight : bold;
+    font-size : 15px;
+}
+
+.actionOptions{
+width : 100%;
+
+}
+
+.dataView .buttonCard:hover{
+    cursor: pointer;
+    background-color : var(--lumo-contrast-5pct);
+}
+
+.actionLabel{
+    margin-top : auto;
+    margin-bottom : auto;
+}
+
+.editButtonCard{
+    margin-top : auto;
+    margin-bottom : auto;
+}
+
+.dataView .buttonCard{
+ box-shadow: var(--lumo-box-shadow-xs);
+ background-color: #dfe0e0;
+    width : 175px;
+    height : 27px;
+}
+
+.dataView .request-span:hover{
+              cursor: pointer;
+              text-decoration: underline;
+              text-decoration-color : var(--lumo-primary-color);
+          }
+
+.top-bar{
+    background-color : #dfe0e0;
+    width : 100%;
+    box-shadow: var(--lumo-box-shadow-xs);
+}
+
+.search-bar-button{
+    background-color : var(--lumo-contrast-5pct);
+    box-shadow: var(--lumo-box-shadow-xs);
+}
+
+[part~="header-cell"] ::slotted(vaadin-grid-cell-content) {
+    font-size : 5px;
+
+}
+
+.dataView .editButtonCard{
+box-shadow: var(--lumo-box-shadow-xs);
+background-color: #dfe0e0;
+height : 27px;
+width : 300px;
+
+}
+
+.dataView .editButtonCard:hover{
+    cursor: pointer;
+    background-color : var(--lumo-contrast-5pct);
+
+}
+
+.dataView{
+    background-color : var(--lumo-contrast-10pct);
+}

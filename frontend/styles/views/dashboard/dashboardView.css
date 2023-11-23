@@ -1,0 +1,210 @@
+.dashboard-view vaadin-grid {
+.dashboard-view vaadin-grid {
+  line-height: var(--lumo-line-height-m);
+}
+
+.dashboard-view vaadin-grid,
+.dashboard-view vaadin-grid-cell-content {
+ background-color: var(--lumo-contrast-10pct);
+
+}
+
+input[type=radio] {
+    margin: 0;
+      display: block;
+}
+
+.dashboard-view .card {
+  background-color: var(--lumo-base-color);
+  border-radius: var(--lumo-border-radius);
+  box-shadow: var(--lumo-box-shadow-xs);
+  padding: calc(var(--lumo-space-s) * 1.5) var(--lumo-space-m);
+}
+
+.dashboard-view .rolesCard {
+  background-color: #000000;
+  border-radius: var(--lumo-border-radius);
+  box-shadow: var(--lumo-box-shadow-xs);
+}
+
+.dashboard-view .filter{
+  box-shadow: var(--lumo-box-shadow-xs);
+  padding: calc(var(--lumo-space-s) * 1.5);
+  background-color: #dfe0e0;
+}
+
+.dashboard-view .searchIcon{
+    font-weight : bold;
+}
+
+.dashboard-view img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: var(--lumo-size-m);
+  width: var(--lumo-size-m);
+}
+
+.dashboard-view .filterLabel{
+  color: black;
+  font-weight : bold;
+}
+
+.dashboard-view .seperator{
+    color : black;
+}
+.dashboard-view .pickerLabel{
+    color: black;
+    font-size : 18px;
+}
+
+.windowLabel{
+    font-weight : bold;
+    font-size : 20px;
+    position : top center;
+}
+
+.info-grid{
+    margin-left: 10px;
+}
+
+
+.mainLabel{
+    position : top center;
+}
+
+.dashboard-view .header {
+  align-items: baseline;
+}
+
+.dashboard-view .name {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.dashboard-view .date {
+  color: var(--lumo-tertiary-text-color);
+  font-size: var(--lumo-font-size-s);
+}
+
+.dashboard-view .post {
+  color: var(--lumo-secondary-text-color);
+  font-size: 18px;
+  margin-bottom: var(--lumo-space-s);
+  white-space: normal;
+}
+
+
+.dashboard-view .actions {
+  align-items: center;
+}
+
+.dashboard-view iron-icon {
+  color: var(--lumo-tertiary-text-color);
+  height: calc(var(--lumo-icon-size-s) * 0.8);
+  width: calc(var(--lumo-icon-size-s) * 0.8);
+}
+
+.dashboard-view .likes,
+.dashboard-view .comments,
+.dashboard-view .shares {
+  color: var(--lumo-tertiary-text-color);
+  font-size: var(--lumo-font-size-xs);
+  margin-right: var(--lumo-space-l);
+}
+
+
+.addEvent{
+    transition : transform 0.2s;
+    cursor : cursor;
+}
+
+.addEvent:hover{
+    transform : scale(1.1);
+}
+
+.roleDescCard{
+    cursor : pointer;
+    color : var(--lumo-primary-color);
+    text-decoration : underline;
+}
+
+.roleHeader{
+    margin-left : auto  !important;
+    margin-right : auto !important;
+}
+
+.numberCircle {
+       border-radius: 50%;
+           width: 14px;
+           height: 14px;
+           padding : 9px;
+
+
+           background: #fff;
+           border: 2px solid;
+           border-color : var(--lumo-primary-color);
+           color: var(--lumo-primary-color);
+           text-align: center;
+
+
+           font: 14px Arial, sans-serif;
+           font-weight : bold;
+           margin-left : auto;
+           margin-right : auto;
+
+}
+
+.choice{
+    text-align : center;
+}
+
+.fullChoiceLayout{
+    padding-right : 0;
+    transform : scale(0.7);
+}
+
+
+.horizontalBlueLine{
+    height : 1px;
+    width : 60px;
+    background : var(--lumo-primary-color);
+    margin : auto !important;
+
+}
+
+
+.fullLayout{
+    height : 10vh;
+    transform : scale(1.2);
+}
+
+
+
+.choiceClicked{
+    border-color : var(--lumo-primary-color);
+    color: #fff;
+    background-color: var(--lumo-primary-color);
+}
+
+.choiceClicked:hover{
+    border-color : var(--lumo-primary-color);
+    color: #fff;
+    background-color: var(--lumo-primary-color);
+}
+
+
+.disabledButton{
+    border-color : var(--lumo-contrast-50pct);
+    color : #fff;
+    background-color : var(--lumo-contrast-20pct);
+}
+
+.disabledButton:hover{
+    cursor: no-drop;
+}
+
+
+.enabledButton:hover{
+    cursor:pointer;
+    transform : scale(1.05);
+}

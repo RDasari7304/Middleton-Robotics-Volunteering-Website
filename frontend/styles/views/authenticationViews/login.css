@@ -1,0 +1,21 @@
+.login{
+       background-image : url("images/logos/oie_transparent.png");
+       background-repeat : no-repeat;
+       background-position: left center;
+        background-size : 500px 200px;
+
+       background-color: #800000;
+}
+
+.middletonLabel{
+    color: #ffd700;
+    font-weight : bold;
+}
+
+.signUpLabel{
+    color: #00008B
+    font-weight: bold;
+    text-decoration : underline;
+    text-decoration-color : #0000FF;
+
+}
